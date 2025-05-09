@@ -1,10 +1,9 @@
 <!DOCTYPE html>
 <html lang="lv">
-
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Purvciema Sarkanie marinētie gurķi</title>
+  <title>Purvciema Sarkanīe marinētie gurķi</title>
   <style>
     body {
       margin: 0;
@@ -12,7 +11,6 @@
       background-color: #3d0d0d;
       color: white;
     }
-
     header {
       background-color: #5c1212;
       padding: 10px 20px;
@@ -20,16 +18,13 @@
       align-items: center;
       justify-content: space-between;
     }
-
     .logo img {
       height: 60px;
     }
-
     nav {
       display: flex;
       gap: 15px;
     }
-
     nav a {
       color: white;
       text-decoration: none;
@@ -38,84 +33,74 @@
       border-radius: 5px;
       transition: background 0.3s;
     }
-
     nav a:hover {
       background-color: #a33b3b;
     }
-
     .content {
       text-align: center;
       padding: 30px;
     }
-
     .content h1 {
       margin: 0;
       font-size: 2em;
     }
-
     .subtitle {
       font-size: 1em;
       color: #ccc;
     }
-
     .gallery {
       display: flex;
       justify-content: space-around;
       margin-top: 40px;
       flex-wrap: wrap;
     }
-
     .gallery-item {
       width: 250px;
       margin: 20px;
     }
-
     .gallery-item img {
       width: 100%;
       border-radius: 10px;
     }
-
     .gallery-item p {
       margin-top: 10px;
       font-weight: bold;
     }
   </style>
 </head>
-
 <body>
 
-  <header>
-    <a class="logo" href="index.html">
-      <img src="image 9.png" alt="Red Logo">
-    </a>
-    <nav>
-      <a href=veikals.html>Veikals</a>
-      <a href="">Vairāk par mums</a>
-      <a href="sūdzības.html">Atsauksmes</a>
-      <a href="">Reģistrēties kontā</a>
-    </nav>
-  </header>
+<header>
+  <a class="logo" href="index.html">
+    <img src="2852a072-b72d-4aa2-9004-cf3698b2dc77.png" alt="Red Logo">
+  </a>
+  <nav>
+    <a href="store.html">Veikals</a>
+    <a href="about.html">Vairāk par mums</a>
+    <a href="reviews.html">Atsauksmes</a>
+    <a href="register.html">Reģistrēties kontā</a>
+  </nav>
+</header>
 
-  <div class="content">
-    <h1>Purvciema Sarkanie marinētie gurķi</h1>
-    <div class="subtitle">non-organic audzēti</div>
+<div class="content">
+  <h1>Purvciema Sarkanīe marinētie gurķi</h1>
+  <div class="subtitle">non-organic audzēti</div>
 
-    <div class="gallery">
-      <div class="gallery-item">
-        <img src="image 9 (1).png" alt="Gurķis" />
-        <p>Gurķis</p>
-      </div>
-      <div class="gallery-item">
-        <img src="image 11.png" alt="Eco darba spēks" />
-        <p>Eco darba spēks</p>
-      </div>
-      <div class="gallery-item">
-        <img src="image 10.png" alt="Ekipējums" />
-        <p>Ekipējums</p>
-      </div>
+  <div class="gallery">
+    <div class="gallery-item">
+      <img src="https://via.placeholder.com/250x250?text=Gurķis" alt="Gurķis" />
+      <p>Gurķis</p>
+    </div>
+    <div class="gallery-item">
+      <img src="https://via.placeholder.com/250x250?text=Eco+darba+spēks" alt="Eco darba spēks" />
+      <p>Eco darba spēks</p>
+    </div>
+    <div class="gallery-item">
+      <img src="https://via.placeholder.com/250x250?text=Ekipējums" alt="Ekipējums" />
+      <p>Ekipējums</p>
     </div>
   </div>
+</div>
 
 </body>
-
 </html>
